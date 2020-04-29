@@ -20,14 +20,19 @@ p {
   height: fit-content;
   background-color: azure;
   border: 3px solid black;
-  padding: 5px;
+  padding: 20px;
   border-radius: 7.5px;
   letter-spacing: .75px;
   line-height: 18.5px;
+  float: left;
 }
 
 span {
   font-size: 1.5em;
   display: inline-block;
   padding-bottom: 5px;
+}
+
+.clear {
+  clear: left;
 }
