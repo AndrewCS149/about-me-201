@@ -14,7 +14,8 @@ h1 {
   border-radius: 7.5px;
 }
 
-p {
+p,
+.list {
   margin: 35px 20px;
   width: 35%;
   height: fit-content;
@@ -24,13 +25,29 @@ p {
   border-radius: 7.5px;
   letter-spacing: .75px;
   line-height: 18.5px;
-  float: left;
 }
 
-span {
+span,
+.list h2 {
   font-size: 1.5em;
-  display: inline-block;
+  display: block;
   padding-bottom: 5px;
+}
+
+#usaf,
+#tech {
+  display: inline-block;
+  margin: 20px;
+  width: 40%;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
 }
 
 ol {
@@ -57,6 +74,4 @@ ol {
   line-height: 18.5px;
 }
 
-.clear {
-  clear: left;
-}
+/* s */
