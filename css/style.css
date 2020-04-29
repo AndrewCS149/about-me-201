@@ -33,6 +33,30 @@ span {
   padding-bottom: 5px;
 }
 
+ol {
+  list-style-type: decimal;
+  text-align: center;
+  padding-left: 10px;
+}
+
+#top-ten h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+#top-ten {
+  margin: 35px 20px;
+  width: fit-content;
+  background-color: azure;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 7.5px;
+  letter-spacing: .75px;
+  line-height: 18.5px;
+}
+
 .clear {
   clear: left;
 }
