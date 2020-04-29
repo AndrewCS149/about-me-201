@@ -1,6 +1,6 @@
 body {
   margin: 10px 20px;
-  background-color: #197498;
+  background-color: cadetblue;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -9,28 +9,25 @@ h1 {
   border: 3px solid black;
   width: fit-content;
   padding: 10px;
-  margin: 30px 0px;
+  margin: 30px 20px;
   background-color: azure;
   border-radius: 7.5px;
 }
 
-h2 {
-  font-size: 1.5em;
-  width: fit-content;
-  background-color: azure;
-  border-top: 3px solid black;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
-  padding: 5px;
-  border-radius: 7.5px 7.5px 0px 0px;
-
-}
-
 p {
-  margin-bottom: 35px;
-  width: 75%;
+  margin: 35px 20px;
+  width: 35%;
+  height: fit-content;
   background-color: azure;
   border: 3px solid black;
   padding: 5px;
-  border-radius: 0px 7.5px 7.5px 7.5px;
+  border-radius: 7.5px;
+  letter-spacing: .75px;
+  line-height: 18.5px;
+}
+
+span {
+  font-size: 1.5em;
+  display: inline-block;
+  padding-bottom: 5px;
 }
