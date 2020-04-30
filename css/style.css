@@ -31,11 +31,11 @@ p,
   width: 35%;
   height: fit-content;
   background-color: azure;
-  border: 3px solid black;
+  border: 3px solid whitesmoke;
   padding: 20px;
-  border-radius: 7.5px;
   letter-spacing: .75px;
   line-height: 18.5px;
+  margin: 40px auto;
 }
 
 span,
@@ -79,12 +79,11 @@ ol {
 }
 
 #top-ten {
-  margin: 35px 20px;
+  margin: 35px auto;
   width: fit-content;
   background-color: azure;
-  border: 3px solid black;
+  border: 3px solid whitesmoke;
   padding: 20px;
-  border-radius: 7.5px;
   letter-spacing: .75px;
   line-height: 18.5px;
 }
