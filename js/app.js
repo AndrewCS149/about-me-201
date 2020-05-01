@@ -9,6 +9,8 @@ are correct or not. */
 var score = 0;
 
 // 2d array of questions and answers
+// value at idx 1 is the correct answer for the question
+// value at idx 2 is the incorrect answer for the question
 var yesNoQuestions = [
   ['Am I a dog person?', 'yes', 'no'],
   ['Do I wear glasses?', 'yes', 'no'],
@@ -27,8 +29,9 @@ var wrongAnswers = [
   'Incorrect. I am 70 inches tall'
 ];
 
-
-function questions() {
+// a function to display all questions and responses using a for loop
+// to iterate through the arrays
+function yesNo() {
 
   for(var i = 0; i < yesNoQuestions.length; i++) {
     var userResponse = prompt(yesNoQuestions[i][0]).toLowerCase();
@@ -37,12 +40,11 @@ function questions() {
       userResponse === yesNoQuestions[i][1][0]) {
       alert('You are correct!');
       score++;
-      console.log('User answered correctly');
+      // console.log('User answered correctly');
     } else if(userResponse === yesNoQuestions[i][2] ||
               userResponse === yesNoQuestions[i][2][0]) {
       alert(wrongAnswers[i]);
-      score++;
-      console.log('User answered incorrectly');
+      // console.log('User answered incorrectly');
     }
   }
 }
@@ -127,7 +129,7 @@ function greet(){
   alert('I see, ' + homeTown + ' is a little bit of a drive from my hometown of Rockford, Illinois. Well anyways it was nice to meet you ' + userName + '. I hope you have a wonderful day and enjoy reading a little more about me on this webpage. Good day!');
 }
 
-questions();
+yesNo();
 showScore();
 filmTotal();
 favoriteCharacter();
