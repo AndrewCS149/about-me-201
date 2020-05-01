@@ -35,8 +35,8 @@ p,
   border: 3px solid whitesmoke;
   padding: 20px;
   letter-spacing: .75px;
-  line-height: 18.5px;
   margin: 40px auto;
+  line-height: 1.5em;
 }
 
 span,
@@ -51,6 +51,7 @@ span,
   display: inline-block;
   margin: 20px;
   width: 40%;
+  vertical-align: text-top;
 }
 
 #education ul {
@@ -70,6 +71,7 @@ ol {
   list-style-type: decimal;
   text-align: center;
   padding-left: 10px;
+  line-height: 1.5em;
 }
 
 #top-ten h2 {
