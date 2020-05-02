@@ -40,11 +40,9 @@ function yesNo() {
       userResponse === yesNoQuestions[i][1][0]) {
       alert('You are correct!');
       score++;
-      // console.log('User answered correctly');
     } else if(userResponse === yesNoQuestions[i][2] ||
               userResponse === yesNoQuestions[i][2][0]) {
       alert(wrongAnswers[i]);
-      // console.log('User answered incorrectly');
     }
   }
 }
@@ -55,20 +53,17 @@ function filmTotal(){
   var number = Math.floor(Math.random() * 100);
   var numGuess = prompt('Can you guess the secret number between 1 and 100?');
   var i = 0;
-  // console.log('Ask user how many MCU films there are.');
 
   while(i < 4) {
     i++;
 
     if(numGuess == number) {
-      // console.log('User answered correctly');
       alert('You are correct!');
       score++;
       break;
     }
 
     if(i === 4) {
-      // console.log('User answered incorrectly');
       alert('You lost... The correct answer is ' + number);
       break;
     }
@@ -97,7 +92,6 @@ function favoriteCharacter(){
         characterGuess === favCharacter[1] ||
         characterGuess === favCharacter[2] ||
         characterGuess === favCharacter[3]) {
-      // console.log('User answered correctly');
       alert('You are correct!');
       score++;
       answer = true;
@@ -107,7 +101,6 @@ function favoriteCharacter(){
     }
 
     if(characterCount === 6) {
-      // console.log('User answered incorrectly');
       alert('Unfortunately, you have lost. My favorite characters are Iron man, Thor, Captain America and Loki.');
       break;
     }
@@ -130,8 +123,8 @@ function greet(){
 }
 
 yesNo();
-showScore();
 filmTotal();
 favoriteCharacter();
+showScore();
 greet();
 
